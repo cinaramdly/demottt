@@ -1,0 +1,82 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+body .imgbox img {
+  width: 100%;
+}
+
+#welcome {
+  background-image: url(assets/header-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 570px;
+}
+#welcome .box {
+  height: 641px;
+}
+#welcome .box h1, #welcome .box .btn {
+  font-weight: 700;
+  font-family: sans-serif;
+  color: white;
+}
+#welcome .box h1 {
+  font-size: 70px;
+  margin: 18px 0 60px;
+}
+#welcome .box h3 {
+  font-size: 36px;
+  color: white;
+  font-style: italic;
+  font-family: math;
+}
+#welcome .box .btn {
+  font-size: 17px;
+  background-color: #ffc800;
+  padding: 20px 40px;
+  border-radius: 6px;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background-color: #212529;
+  padding: 25px 0;
+}
+header .menu .imgbox {
+  margin-left: 30px;
+  width: 135px;
+}
+header .menu nav {
+  display: flex;
+}
+header .menu nav .box a {
+  line-height: 1.5;
+  margin: 13px;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  font-size: 15px;
+  cursor: pointer;
+}
+header .menu nav .box:hover a {
+  color: #e4b703;
+}
+
+#SERVICES {
+  padding: 70px 0;
+}
+#SERVICES .textbox h1 {
+  font-weight: 700;
+  font-size: 36px;
+  font-family: sans-serif;
+}
+#SERVICES .textbox h3 {
+  font-size: 17px;
+  font-family: math;
+  font-style: italic;
+  color: #6e7a86;
+}
+#SERVICES .textbox .box .icon {
+  color: #ffc800;
+}/*# sourceMappingURL=style.css.map */
