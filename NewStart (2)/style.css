@@ -2,7 +2,10 @@ body {
   font-family: "Dosis", sans-serif;
   font-weight: 500;
 }
-body .imgbox img {
+body section {
+  padding: 100px 0;
+}
+body section .imgbox img {
   width: 100%;
 }
 
@@ -40,6 +43,7 @@ body .imgbox img {
 
 header {
   position: sticky;
+  z-index: 1;
   top: 0;
   background-color: #212529;
   padding: 25px 0;
@@ -63,20 +67,76 @@ header .menu nav .box:hover a {
   color: #e4b703;
 }
 
-#SERVICES {
-  padding: 70px 0;
-}
 #SERVICES .textbox h1 {
   font-weight: 700;
-  font-size: 36px;
+  font-size: 40px;
   font-family: sans-serif;
 }
 #SERVICES .textbox h3 {
-  font-size: 17px;
+  font-size: 19px;
   font-family: math;
   font-style: italic;
   color: #6e7a86;
+  margin-top: 20px;
 }
-#SERVICES .textbox .box .icon {
-  color: #ffc800;
+#SERVICES .box {
+  width: 290px;
+}
+#SERVICES .box .icon {
+  font-size: 60px;
+  color: white;
+}
+#SERVICES .box .icon i {
+  background-color: #ffc800;
+  border-radius: 50%;
+  padding: 30px;
+}
+#SERVICES .box h2 {
+  font-size: 25px;
+  font-weight: 700;
+  font-family: sans-serif;
+  margin: 20px 0 25px;
+}
+#SERVICES .box h4 {
+  color: #636b72;
+  font-family: match;
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+#PORTFOLIO {
+  background-color: #f8f9fa;
+}
+#PORTFOLIO .textbox {
+  text-align: center;
+}
+#PORTFOLIO h1 {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+#PORTFOLIO h3, #PORTFOLIO h4 {
+  font-family: math;
+  font-style: italic;
+  color: #6e7a86;
+  font-size: 18px;
+}
+#PORTFOLIO .box {
+  background-color: white;
+  position: relative;
+  margin: 10px 0;
+}
+#PORTFOLIO .box .icon {
+  position: absolute;
+  top: 30px;
+  width: 100%;
+  color: white;
+  font-size: 60px;
+  opacity: 0;
+  text-align: center;
+}
+#PORTFOLIO .box h2 {
+  font-size: 25px;
+  font-weight: 700;
+  font-family: sans-serif;
 }/*# sourceMappingURL=style.css.map */
