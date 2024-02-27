@@ -2,34 +2,43 @@
     background-color: #f8f9fa
     .textbox
         text-align: center
+    h1,h2,h3,h4
+        cursor: text
     h1
         font-size: 40px
         font-weight: 700
         font-family: sans-serif
+        margin-bottom: 20px
     h3,h4
         font-family: math
         font-style: italic
-        color: #6e7a86
+        color: #667581
         font-size: 18px
     .box
         background-color: #ffff
-        position: relative
-        margin: 10px 0
-        .imgbox
+        .minibox
             position: relative
-           img
-            .basic 
+            .imgbox
+                background: #ffc60a
+                img
+                    cursor: pointer
+                    opacity: 1
+                    transition: 0.5s
+                &:hover
+                    img
+                        opacity: 0.1
+            .icon
                 position: absolute
-                top:20px
-                left: 0
-        .icon
-            position: absolute
-            top: 30px
-            width: 100%
-            color: #ffff
-            font-size: 60px
-            opacity: 0
-            text-align: center
+                top: 80px
+                width: 100%
+                color: #ffff
+                font-size: 60px
+                opacity: 0
+                text-align: center
+                transition: 0.5s
+            &:hover
+                .icon
+                    opacity: 1
         h2
             font-size: 25px
             font-weight: 700
