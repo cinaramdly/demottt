@@ -6,11 +6,13 @@
     height: 570px
     .box
         height: 445px
-        .textbox
+    .textbox
         h1,.btn
             font-weight: 700
             font-family: sans-serif
             color: #ffff
+        h1,h3
+            cursor: text
         h1
             font-size: 70px
             margin: 18px 0 60px
@@ -19,9 +21,14 @@
             color: #ffff
             font-style: italic
             font-family: math
-        .btn
-            font-size: 17px
-            background-color: #ffc800
-            padding: 20px 40px
-            border-radius: 6px
-          
+        .button
+            .btn
+                font-size: 17px
+                background-color: #ffc800
+                padding: 20px 40px
+                border-radius: 6px
+                h2
+                    cursor: pointer
+            &:hover
+                .btn
+                    background-color: #dbaf11
