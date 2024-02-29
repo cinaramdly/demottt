@@ -55,11 +55,10 @@ header {
   z-index: 1;
   top: 0;
   background-color: #212529;
-  padding: 25px 0;
+  padding: 20px 0;
 }
 header .menu .imgbox {
-  margin-left: 30px;
-  width: 135px;
+  width: 138px;
 }
 header .menu nav {
   display: flex;
@@ -67,13 +66,30 @@ header .menu nav {
 header .menu nav .box a {
   line-height: 1.5;
   margin: 13px;
-  font-family: sans-serif;
   letter-spacing: 2px;
   font-size: 15px;
   cursor: pointer;
 }
 header .menu nav .box:hover a {
   color: #e4b703;
+}
+@media (max-width: 992px) {
+  header nav {
+    font-weight: 700;
+    font-size: 14px;
+    border: 1px solid #494c4c;
+    padding: 11px 13px;
+    border-radius: 6px;
+  }
+  header nav .box {
+    display: none;
+  }
+  header nav h2, header nav i {
+    color: #898a8d;
+  }
+  header nav i {
+    margin-left: 7px;
+  }
 }
 
 #SERVICES h1, #SERVICES h2, #SERVICES h3, #SERVICES h4 {

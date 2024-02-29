@@ -3,21 +3,33 @@ header
     z-index: 1
     top: 0
     background-color: #212529
-    padding: 25px 0
+    padding: 20px 0
     .menu
         .imgbox
-            margin-left: 30px
-            width: 135px
+
+            width: 138px
         nav
             display: flex
             .box
                 a
                     line-height: 1.5
                     margin: 13px
-                    font-family: sans-serif
                     letter-spacing: 2px
                     font-size: 15px
                     cursor: pointer
                 &:hover
                     a
                         color: #e4b703
+    @media ( max-width: 992px)
+        nav
+            font-weight: 700
+            font-size: 14px
+            border: 1px solid #494c4c
+            padding: 11px 13px
+            border-radius: 6px
+            .box
+                display: none
+            h2,i
+                color: #898a8d
+            i
+                margin-left: 7px
