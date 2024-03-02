@@ -15,10 +15,9 @@ body section .imgbox img {
   background-position: center;
   width: 100%;
   height: 570px;
-  @medi;
 }
 #welcome .box {
-  height: 600px;
+  height: 480px;
 }
 #welcome .textbox h1, #welcome .textbox .btn {
   font-weight: 700;
@@ -29,11 +28,11 @@ body section .imgbox img {
   cursor: text;
 }
 #welcome .textbox h1 {
-  font-size: 70px;
+  font-size: 75px;
   margin: 18px 0 60px;
 }
 #welcome .textbox h3 {
-  font-size: 36px;
+  font-size: 40px;
   color: white;
   font-style: italic;
   font-family: math;
@@ -50,10 +49,22 @@ body section .imgbox img {
 #welcome .textbox .button:hover .btn {
   background-color: #dbaf11;
 }
+@media (max-width: 768px) {
+  #welcome .box {
+    height: 450px;
+  }
+  #welcome .box h1 {
+    font-size: 60px;
+  }
+  #welcome .box h3 {
+    font-size: 25px;
+  }
+}
 
 header {
   position: sticky;
   top: 0;
+  z-index: 1;
   background-color: #212529;
   padding: 23px 0;
 }
