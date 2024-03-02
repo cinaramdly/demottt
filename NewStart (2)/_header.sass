@@ -2,17 +2,16 @@ header
     position: sticky
     top: 0
     background-color: #212529
-    padding: 20px 0
+    padding: 23px 0
     .menu
         .imgbox
-
-            width: 138px
+            width: 140px
         nav
             display: flex
-            .box
+            .minibox
                 a
                     line-height: 1.5
-                    margin: 13px
+                    margin: 17px
                     letter-spacing: 2px
                     font-size: 18px
                     cursor: pointer
@@ -20,18 +19,18 @@ header
                     a
                         color: #e4b703
     @media ( max-width: 992px)
-        nav
+        .box
             font-weight: 700
             font-size: 14px
             border: 1px solid #494c4c
             padding: 11px 13px
             border-radius: 6px
-            .box
-                display: none
             h2,i
-                color: #898a8d
+                color: #9a9c9c
             i
                 margin-left: 7px
+        .minibox
+            display: none
     @media ( max-width: 279px)
         .menu
             display: flex
