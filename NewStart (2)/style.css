@@ -147,6 +147,12 @@ header .menu nav .minibox:hover a {
   font-family: match;
   line-height: 1.5;
   font-size: 18px;
+  margin-bottom: 20px;
+}
+@media (max-width: 768px) {
+  #SERVICES .box {
+    width: 468px;
+  }
 }
 
 #PORTFOLIO {
@@ -213,6 +219,5 @@ header .menu nav .minibox:hover a {
 @media (max-width: 576px) {
   #PORTFOLIO .box {
     width: 425px;
-    height: 430px;
   }
 }/*# sourceMappingURL=style.css.map */
