@@ -109,40 +109,40 @@ header .menu nav .minibox:hover a {
   }
 }
 
-#SERVICES h1, #SERVICES h2, #SERVICES h3, #SERVICES h4 {
+#services h1, #services h2, #services h3, #services h4 {
   cursor: text;
 }
-#SERVICES .textbox h1 {
+#services .textbox h1 {
   font-weight: 700;
   font-size: 40px;
   font-family: sans-serif;
 }
-#SERVICES .textbox h3 {
+#services .textbox h3 {
   font-size: 19px;
   font-family: math;
   font-style: italic;
   color: #6e7a86;
   margin-top: 20px;
 }
-#SERVICES .box {
+#services .box {
   width: 290px;
 }
-#SERVICES .box .icon {
+#services .box .icon {
   font-size: 60px;
   color: white;
 }
-#SERVICES .box .icon i {
+#services .box .icon i {
   background-color: #ffc800;
   border-radius: 50%;
   padding: 30px;
 }
-#SERVICES .box h2 {
+#services .box h2 {
   font-size: 25px;
   font-weight: 700;
   font-family: sans-serif;
   margin: 20px 0 25px;
 }
-#SERVICES .box h4 {
+#services .box h4 {
   color: #636b72;
   font-family: match;
   line-height: 1.5;
@@ -150,51 +150,51 @@ header .menu nav .minibox:hover a {
   margin-bottom: 20px;
 }
 @media (max-width: 768px) {
-  #SERVICES .box {
+  #services .box {
     width: 468px;
   }
 }
 
-#PORTFOLIO {
+#portfolio {
   background-color: #f8f9fa;
 }
-#PORTFOLIO .textbox {
+#portfolio .textbox {
   text-align: center;
 }
-#PORTFOLIO h1, #PORTFOLIO h2, #PORTFOLIO h3, #PORTFOLIO h4 {
+#portfolio h1, #portfolio h2, #portfolio h3, #portfolio h4 {
   cursor: text;
 }
-#PORTFOLIO h1 {
+#portfolio h1 {
   font-size: 43px;
   font-weight: 700;
   font-family: sans-serif;
   margin-bottom: 20px;
 }
-#PORTFOLIO h3, #PORTFOLIO h4 {
+#portfolio h3, #portfolio h4 {
   font-family: math;
   font-style: italic;
   color: #667581;
   font-size: 18px;
 }
-#PORTFOLIO .box {
+#portfolio .box {
   margin: 20px 0;
   background-color: white;
 }
-#PORTFOLIO .box .minibox {
+#portfolio .box .minibox {
   position: relative;
 }
-#PORTFOLIO .box .minibox .imgbox {
+#portfolio .box .minibox .imgbox {
   background: #ffc60a;
 }
-#PORTFOLIO .box .minibox .imgbox img {
+#portfolio .box .minibox .imgbox img {
   cursor: pointer;
   opacity: 1;
   transition: 0.5s;
 }
-#PORTFOLIO .box .minibox .imgbox:hover img {
+#portfolio .box .minibox .imgbox:hover img {
   opacity: 0.1;
 }
-#PORTFOLIO .box .minibox .icon {
+#portfolio .box .minibox .icon {
   position: absolute;
   top: 80px;
   width: 100%;
@@ -204,20 +204,29 @@ header .menu nav .minibox:hover a {
   text-align: center;
   transition: 0.5s;
 }
-#PORTFOLIO .box .minibox:hover .icon {
+#portfolio .box .minibox:hover .icon {
   opacity: 1;
 }
-#PORTFOLIO .box .textbox {
+#portfolio .box .textbox {
   margin: 32px;
 }
-#PORTFOLIO .box h2 {
+#portfolio .box h2 {
   margin-bottom: 10px;
   font-size: 25px;
   font-weight: 700;
   font-family: sans-serif;
 }
 @media (max-width: 576px) {
-  #PORTFOLIO .box {
+  #portfolio .box {
     width: 425px;
   }
+}
+
+#about .imgbox {
+  width: 100px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+#about .textbox {
+  width: 400px;
 }/*# sourceMappingURL=style.css.map */
