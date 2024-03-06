@@ -263,24 +263,4 @@ header .menu nav .minibox:hover a {
   font-size: 17px;
   color: #5f6c78;
   line-height: 1.7;
-}
-@media (max-width: 768px) {
-  #about .reverse {
-    flex-direction: row-reverse;
-  }
-  #about .textbox {
-    width: 400px;
-  }
-  #about .right {
-    text-align: left;
-  }
-}
-@media (max-width: 992px) {
-  #about .box .imgbox {
-    width: 90px;
-    height: 90px;
-  }
-  #about .box .textbox {
-    width: 280px;
-  }
 }/*# sourceMappingURL=style.css.map */
