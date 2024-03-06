@@ -234,33 +234,54 @@ header .menu nav .minibox:hover a {
   color: #5f6c78;
   margin-bottom: 75px;
 }
-#about .imgbox {
+#about .box .minibox {
+  margin-bottom: 120px;
+}
+#about .box .minibox .textbox {
+  margin-left: 35px;
+  width: 340px;
+}
+#about .box .minibox .right {
+  text-align: right;
+  margin-right: 35px;
+}
+#about .box .minibox h2, #about .box .minibox h3 {
+  margin-bottom: 10px;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+#about .box .minibox h5 {
+  font-family: math;
+  font-size: 17px;
+  color: #5f6c78;
+  line-height: 1.7;
+}
+#about .box .minibox .imgbox {
   border: 7px solid #e9ecef;
   width: 150px;
   height: 150px;
   border-radius: 100%;
   overflow: hidden;
 }
-#about .box {
-  margin-bottom: 120px;
+#about .box .end {
+  display: flex;
+  justify-content: flex-end;
 }
-#about .box .textbox {
-  margin-left: 35px;
-  width: 340px;
+@media (max-width: 768px) {
+  #about .minibox .textbox {
+    width: 480px;
+  }
+  #about .minibox .right {
+    text-align: left;
+  }
+  #about .reverse {
+    flex-direction: row-reverse;
+  }
 }
-#about .box .right {
-  text-align: right;
-  margin-right: 35px;
-}
-#about .box h2, #about .box h3 {
-  margin-bottom: 10px;
-  font-family: sans-serif;
-  font-weight: 700;
-  font-size: 24px;
-}
-#about .box h5 {
-  font-family: math;
-  font-size: 17px;
-  color: #5f6c78;
-  line-height: 1.7;
+@media (max-width: 992px) {
+  #about .minibox .imgbox {
+    width: 90px;
+    height: 90px;
+  }
 }/*# sourceMappingURL=style.css.map */

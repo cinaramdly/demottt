@@ -10,29 +10,44 @@
             font-size: 18px
             color: #5f6c78
             margin-bottom: 75px
-    .imgbox
-        border: 7px solid #e9ecef
-        width: 150px
-        height: 150px
-        border-radius: 100%
-        overflow: hidden
     .box
-        margin-bottom: 120px
-        .textbox
-            margin-left: 35px
-            width: 340px
-        .right
-            text-align: right
-            margin-right: 35px
-        h2,h3
-            margin-bottom: 10px
-            font-family: sans-serif
-            font-weight: 700
-            font-size: 24px
-        h5
-            font-family: math
-            font-size: 17px
-            color: #5f6c78
-            line-height: 1.7
+        .minibox
+            margin-bottom: 120px
+            .textbox
+                margin-left: 35px
+                width: 340px
+            .right
+                text-align: right
+                margin-right: 35px
+            h2,h3
+                margin-bottom: 10px
+                font-family: sans-serif
+                font-weight: 700
+                font-size: 24px
+            h5
+                font-family: math
+                font-size: 17px
+                color: #5f6c78
+                line-height: 1.7
+            .imgbox
+                border: 7px solid #e9ecef
+                width: 150px
+                height: 150px
+                border-radius: 100%
+                overflow: hidden
+        .end
+            display: flex
+            justify-content: flex-end
     @media (max-width: 768px)
-
+        .minibox
+            .textbox
+                width: 480px
+            .right
+                text-align: left
+        .reverse
+            flex-direction: row-reverse
+    @media (max-width: 992px )
+        .minibox
+            .imgbox
+                width: 90px
+                height: 90px
