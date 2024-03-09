@@ -257,24 +257,43 @@ header .menu nav .minibox:hover a {
   color: #5f6c78;
   line-height: 1.7;
 }
-#about .box .imgbox {
+#about .box .imgbox, #about .box .btn {
   border: 7px solid #e9ecef;
   width: 150px;
   height: 150px;
   border-radius: 100%;
+}
+#about .box .imgbox {
   overflow: hidden;
 }
-#about .box .end {
+#about .button {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+}
+#about .button .btn {
+  line-height: 1.2;
+  padding: 0 20px;
+  color: white;
+  background-color: #ffc800;
+}
+#about .button h2 {
+  font-size: 20px;
+  font-weight: 700;
 }
 @media (max-width: 992px) {
   #about .box .textbox {
     width: 252px;
   }
-  #about .box .imgbox {
-    width: 90px;
-    height: 90px;
+  #about .box .imgbox, #about .box .btn {
+    width: 100px;
+    height: 100px;
+  }
+  #about .box .btn {
+    padding: 15px;
+  }
+  #about .box .btn h2 {
+    margin: 0;
+    font-size: 15px;
   }
 }
 @media (max-width: 768px) {
@@ -286,5 +305,9 @@ header .menu nav .minibox:hover a {
   }
   #about .reverse {
     flex-direction: row-reverse;
+  }
+  #about .button {
+    display: flex;
+    justify-content: left;
   }
 }/*# sourceMappingURL=style.css.map */
